@@ -1,0 +1,35 @@
+.round {
+    width: 100px; /* Set width */
+    height: 100px; /* Set height */
+    background-color: #e8edf1; /* Set background color */
+    border-radius: 50%; /* Make it round */
+    transition: background-color 0.3s ease;
+    margin-right: 20px; /* Add spacing between elements */
+    text-align: center;
+}
+.rectangle-rounded {
+    width: 180px; /* Set width */
+    height: 90px; /* Set height */
+    background-color: #243d58; /* Set background color */
+    border-radius: 5px; /* Make it round */
+    transition: background-color 0.3s ease;
+    margin-right: 20px; /* Add spacing between elements */
+    text-align: center;
+    color:#fff
+}
+
+.round:hover {
+    background-color: #6faac2; /* Change background color on hover */
+    transform: scale(1.1);
+}
+
+.container {
+    display: flex; /* Use flexbox to align items in a row */
+  }
+
+  .moved {
+    /* Add styles for the moved div */
+    background-color: #c1c8c1c5; /* Example background color */
+    width: 100px; /* Example width */
+    height: 100px; /* Example height */
+  }

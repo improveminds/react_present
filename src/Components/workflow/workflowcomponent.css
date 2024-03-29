@@ -1,0 +1,20 @@
+.custom-button {
+    width: 50px;
+    height: 20 ;
+    display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #47537ada; /* Blue color */
+  color: #67a586; /* White text color */
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.custom-button:hover {
+
+  background-color: #1d3070da; /* Blue color */
+
+}
